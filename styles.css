@@ -77,3 +77,8 @@ img {
     right: 50px;
     font-size: 40px;
 }
+#first-banner {
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
