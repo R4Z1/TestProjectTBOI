@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family: vcr-osd-mono;
+    src: url("./fonts/vcr-osd-mono.ttf");
+}
+@font-face {
+    font-family: upheaval;
+    src: url("./fonts/upheavtt.ttf");
+}
+body {
+    background-image: url("./media/tboi-img/bg.gif");
+    height: 200vh;
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-image: url("./media/tboi-img/header2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav {
+    height: 60%;
+    width: 60%;
+}
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+li {
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    font-family: "upheaval", sans-serif;
+    transition: .5s;
+}
+li:hover {
+    color: rgb(200, 0, 0);
+    font-size: 42px;
+}
+img {
+    height: auto;
+    width: 250px;
+}
+.historia-do-game {
+    position: relative;
+    left: 20px;
+    font-family: "vcr-osd-mono";
+    display: flex;
+    flex-direction: column;
+    height: 950px;
+    width: 1300px;
+    background-image: url("./media/tboi-img/userinfo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo-historia1 {
+    position: relative;
+    top: 80px;
+    left: 70px;
+    right: 50px;
+    font-size: 50px;
+    color: rgb(200, 0, 0);
+}
+.historia1 {
+    width: 1100px;
+    position: relative;
+    top: 150px;
+    left: 70px;
+    right: 50px;
+    font-size: 40px;
+}
